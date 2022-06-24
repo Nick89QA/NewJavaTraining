@@ -9,5 +9,6 @@
 gradle.xml
 .gitignore
 runConfigurations.xml
+.idea/
 
 
