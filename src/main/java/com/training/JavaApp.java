@@ -6,4 +6,5 @@ public class JavaApp {
         System.out.println("Hello world");
 
     }
+
 }

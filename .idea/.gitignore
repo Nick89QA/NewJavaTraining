@@ -6,4 +6,8 @@
 /tasks.xml/
 .idea/gradle.xml
 .idea/libraries
+gradle.xml
+.gitignore
+runConfigurations.xml
+
 
