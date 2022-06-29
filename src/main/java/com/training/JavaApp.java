@@ -6,11 +6,15 @@ import com.training.people.Woman;
 public class JavaApp {
 
     public static void main(String[] args) {
-        Man man = new Man();
-        Woman woman = new Woman();
+        Man ivan = new Man("Ivan");
+        Man igor = new Man("Igor");
+        Woman woman = new Woman ("Masha");
 
+        igor.sayHello();
+        igor.setName("Igor2");
 
-        System.out.println("Hello world");
+        ivan.sayHello();
+        woman.sayHello();
 
     }
 
