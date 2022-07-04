@@ -1,9 +1,23 @@
 package com.training;
 
-public class JavaApp {
-    public static void main(String[] args) {
+import com.training.people.Man;
+import com.training.people.Woman;
 
-        System.out.println("Hello world");
+public class JavaApp {
+
+    public static void main(String[] args) {
+        Man ivan = new Man("Ivan");
+        Man igor = new Man("Igor");
+        Woman woman = new Woman ("Masha");
+
+
+        igor.sayHello();
+
+        ivan.sayHello();
+        woman.sayHello();
+
+        System.out.println(igor);
 
     }
+
 }
