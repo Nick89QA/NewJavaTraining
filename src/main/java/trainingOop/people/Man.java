@@ -1,4 +1,4 @@
-package com.training.people;
+package trainingOop.people;
 
 public class Man extends Person {
 
