@@ -10,11 +10,13 @@ public class JavaApp {
         Man igor = new Man("Igor");
         Woman woman = new Woman ("Masha");
 
+
         igor.sayHello();
-        igor.setName("Igor2");
 
         ivan.sayHello();
         woman.sayHello();
+
+        System.out.println(igor);
 
     }
 
