@@ -1,7 +1,4 @@
-package com.training;
-
-import com.training.people.Man;
-import com.training.people.Woman;
+package trainingOop.people;
 
 public class JavaApp {
 
