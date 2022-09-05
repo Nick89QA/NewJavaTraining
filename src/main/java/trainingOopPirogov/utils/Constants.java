@@ -1,4 +1,4 @@
-package trainingOop.utils;
+package trainingOopPirogov.utils;
 
 public class Constants {
 

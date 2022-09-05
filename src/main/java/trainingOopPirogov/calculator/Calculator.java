@@ -1,4 +1,4 @@
-package trainingOop.calculator;
+package trainingOopPirogov.calculator;
 
 public class Calculator {
 

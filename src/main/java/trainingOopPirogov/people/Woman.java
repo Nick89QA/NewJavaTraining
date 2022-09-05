@@ -1,4 +1,4 @@
-package trainingOop.people;
+package trainingOopPirogov.people;
 
 public class Woman extends Person {
 
