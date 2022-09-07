@@ -1,4 +1,4 @@
-package trainingOop;
+package trainingOopPirogov;
 
 public interface Speakable {
 

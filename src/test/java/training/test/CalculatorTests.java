@@ -1,6 +1,6 @@
 package training.test;
 
-import trainingOop.calculator.Calculator;
+import trainingOopPirogov.calculator.Calculator;
 import org.junit.jupiter.api.Test;
 
 public class CalculatorTests {
@@ -11,7 +11,7 @@ public class CalculatorTests {
 
         int result = calculator.plus(1,4);
 
-        assert result == 3;
+        assert result == 5;
     }
 
 }
