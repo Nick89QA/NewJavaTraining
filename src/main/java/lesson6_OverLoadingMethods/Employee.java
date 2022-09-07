@@ -13,13 +13,13 @@ package lesson6_OverLoadingMethods;
 /**
  * ключевое слово "this" должно находится в начале
  */
-class Employee {
-    Employee(int id2, String surname2, int age2) {
+ public class Employee {
+    public Employee(int id2, String surname2, int age2) {
         this(id2, surname2, age2, 44.4, null);
 
     }
 
-    Employee(String surname3, int age3) {
+     Employee(String surname3, int age3) {
         this(0, surname3, age3, 0.0, null);
     }
 
