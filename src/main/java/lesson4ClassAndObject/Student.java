@@ -10,7 +10,23 @@ public class Student {
     int gradeEconomics = 45;
     int gradeEnglish = 46;
 
+    Student(int ticket1, String name1, int learnYear1, String surname1, int gradeMathematics1, int gradeEconomics1, int gradeEnglish1) {
+        ticket = ticket1;
+        name = name1;
+        learnYear = learnYear1;
+        surname = surname1;
+        gradeMathematics = gradeMathematics1;
+        gradeEconomics = gradeEconomics1;
+        gradeEnglish = gradeEnglish1;
+    }
 
+    Student(int ticket2, String name2, int gradeMathematics2, String surname2){
+        this(ticket2,name2,gradeMathematics2,surname2,0,0,0);
+    }
+
+    Student() {
+
+    }
 }
 
 class StudentTest {
@@ -54,9 +70,8 @@ class StudentTest {
         System.out.println("Средняя оценка студента Вован " + middleGradeVovan / 3);
 
 
-
     }
 
-    }
+}
 
 
