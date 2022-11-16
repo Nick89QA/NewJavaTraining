@@ -18,7 +18,7 @@ public class Test7 {
                 min = array[i];
             }
         }
-        System.out.println("Максимальный элемент масива " + max + "Минимальный элемент массива " + min);
+        System.out.println("Максимальный элемент масива " + max + " Минимальный элемент массива " + min);
     }
 
     public static void main(String[] args) {
